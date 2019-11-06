@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include qct_energy *.css
+recursive-include qct_energy *.csv
+recursive-include qct_energy *.html
+recursive-include qct_energy *.ico
+recursive-include qct_energy *.js
+recursive-include qct_energy *.json
+recursive-include qct_energy *.md
+recursive-include qct_energy *.png
+recursive-include qct_energy *.py
+recursive-include qct_energy *.svg
+recursive-include qct_energy *.txt
+recursive-exclude qct_energy *.pyc
