@@ -1,0 +1,36 @@
+{
+ "creation": "2019-11-22 17:58:56.487357",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "business_line",
+  "field"
+ ],
+ "fields": [
+  {
+   "fieldname": "business_line",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Business Line"
+  },
+  {
+   "fieldname": "field",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "field",
+   "options": "Business Lines"
+  }
+ ],
+ "istable": 1,
+ "modified": "2019-11-22 18:03:52.994109",
+ "modified_by": "Administrator",
+ "module": "qct energy",
+ "name": "Scope of work Fields",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
