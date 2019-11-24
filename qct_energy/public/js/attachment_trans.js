@@ -9,8 +9,7 @@ refresh: function(frm) {
 			
 		}, 
 		callback: function(r) { 
-			frm.reload_doc();
-
+			
 		}
 	});
     });
