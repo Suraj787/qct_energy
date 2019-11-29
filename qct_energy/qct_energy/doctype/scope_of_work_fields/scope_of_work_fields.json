@@ -4,26 +4,27 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "business_line",
-  "field"
+  "field",
+  "default_attribute"
  ],
  "fields": [
-  {
-   "fieldname": "business_line",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Business Line"
-  },
   {
    "fieldname": "field",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "field",
-   "options": "Business Lines"
+   "label": "Field",
+   "options": "Field of Scope"
+  },
+  {
+   "fieldname": "default_attribute",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Default Attribute",
+   "options": "\nCustomer Scope\nIncluded in Quotation\nSupplier Scope\nIncluded in Quotation"
   }
  ],
  "istable": 1,
- "modified": "2019-11-22 18:03:52.994109",
+ "modified": "2019-11-30 03:08:22.216162",
  "modified_by": "Administrator",
  "module": "qct energy",
  "name": "Scope of work Fields",

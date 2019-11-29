@@ -1,22 +1,29 @@
 {
- "creation": "2019-11-30 03:10:21.985221",
+ "creation": "2019-11-30 03:03:12.927486",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "lines"
+  "fields",
+  "bussiness_line"
  ],
  "fields": [
   {
-   "fieldname": "lines",
+   "fieldname": "fields",
    "fieldtype": "Data",
-   "label": "Lines"
+   "label": "Fields"
+  },
+  {
+   "fieldname": "bussiness_line",
+   "fieldtype": "Link",
+   "label": "Bussiness Line",
+   "options": "Business Lines"
   }
  ],
- "modified": "2019-11-30 03:14:57.868808",
+ "modified": "2019-11-30 03:15:49.212476",
  "modified_by": "Administrator",
  "module": "qct energy",
- "name": "Business Lines",
+ "name": "Field of Scope",
  "owner": "Administrator",
  "permissions": [
   {
@@ -35,5 +42,7 @@
  "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "track_changes": 1
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
 }
