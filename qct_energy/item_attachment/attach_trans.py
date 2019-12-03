@@ -200,7 +200,7 @@ def zip_attachments(document):
 			fname = get_file_name(document2.name + " (zip " + str(zip_count) + ").zip", random_string(7))
 			docZip = zipfile.ZipFile(fname,"w", zipfile.ZIP_STORED)
 		docZip.write(path, os.path.basename(path))
-		zip_size  = zip_size + docZip.getinfo(os.path.basename(path)).compress_size
+		zip_size  = https://discuss.erpnext.com/t/how-to-override-method-in-frappe/28786/4zip_size + docZip.getinfo(os.path.basename(path)).compress_size
 		
 
 	docZip.close()
